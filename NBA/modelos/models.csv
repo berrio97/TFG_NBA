@@ -1,0 +1,6 @@
+alg,col,seasons,pca_analysis,wrapper,params
+mlp,Selección manual,2005,True,False,"{'alpha': 3, 'activation': 'relu', 'solver': 'adam', 'hidden_layer_sizes': (5,)}"
+forest,Todos los atributos,2015,False,False,"{'n_estimators':150,'criterion':'gini'}"
+lg,Selección manual,2001,True, False,"{'C':0.002,'solver':'liblinear'}"
+lr,Selección manual, 2005, True, False,
+

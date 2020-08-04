@@ -1,0 +1,1 @@
+Para iniciar la herramienta, ejecutar el archivo 'app.bat'
