@@ -1,1 +1,7 @@
-# TFG_NBA
+# TFG NBA
+
+Este trabajo trata sobre la predicción de los resultados de partidos propios de la NBA. Se estudia la forma en la que se obtienen los datos adecuados a partir de las fuentes de datos utilizadas. Una vez se tienen unos datos con un formato con el que trabajar, se plantean técnicas de aprendizaje automático (Regresión Lineal Múltiple, Regresión Logística, SVM, Perceptrón Multicapa, Random Forest, K-Vecinos, Naive Bayes) para llevar a cabo el objetivo, las cuales se van refinando según los resultados y los ajustes y modificaciones de los datos. En el apartado de los modelos de predicción, se realizan tres experimentos diferentes teniendo en cuenta distintos períodos de tiempo y formas en las que se obtienen los datos.
+    
+Además de ésto, se implementa una herramienta mediante la que un usuario puede acceder a ciertos modelos ya guardados e interactuar con ella planteando ciertos partidos concretos para los que predecir el resultado. Esta herramienta aporta una idea del funcionamiento de cada modelo almacenado.
+
+A través del GestorBBDD se aporta a los datos extraídos un formato adecuado para su uso en los modelos de predicción. En la clase ModeloPredicción se realizan las tareas pertienentes para la creación de los modelos de predicción teniendo en cuenta diferentes aspectos como el conjunto de datos de entrenamiento, de test, las técnicas de aprendizaje diferentes y sus parámetros, entre otros.
